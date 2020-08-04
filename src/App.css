@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.card-title {
+  color: black;
+  font-size: 2rem;
+}
+
+.card-text {
+  color: grey;
+}
