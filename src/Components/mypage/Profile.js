@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileArea from './ProfileArea';
+import ProfileCard from './ProfileArea';
 import propTypes from 'prop-types';
 
 
@@ -15,7 +15,7 @@ class Profile extends React.Component {
     
     render() {
         return (
-            <ProfileArea
+            <ProfileCard
                 profile={this.state.user}
             />
         )
@@ -26,7 +26,7 @@ Profile.propTypes = {
     user: propTypes.shape({
         firstName: propTypes.string,
         lastName: propTypes.string,
-        avatr: propTypes,
+        avatar: propTypes,
     })
 }
 

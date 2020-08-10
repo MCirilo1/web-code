@@ -3,7 +3,7 @@ import propTypes from 'prop-types';
 
 
 
-function ProfileArea(props) {
+function ProfileCard(props) {
    
 
     return (
@@ -23,7 +23,7 @@ function ProfileArea(props) {
 }
 
 
-ProfileArea.propTypes = {
+ProfileCard.propTypes = {
     profile: propTypes.shape({
         firstName: propTypes.string,
         lastName: propTypes.string,
@@ -32,4 +32,4 @@ ProfileArea.propTypes = {
     
 }
 
-export default ProfileArea;
+export default ProfileCard;
