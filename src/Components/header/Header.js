@@ -40,11 +40,10 @@ function Header() {
                 <div className="navbar-translate">
                     <NavbarBrand
                         data-placement="bottom"
-                        href="/index"
                         target="_blank"
-                        title="Miguel Cirilo"
+                        title="Software Engineer"
                         >
-                            Miguel Cirilo
+                            Software Engineer
                     </NavbarBrand>
                     <button
                         aria-expanded={navbarCollapse}
@@ -66,33 +65,22 @@ function Header() {
                     <Nav navbar>
                         <NavItem>
                             <NavLink
-                                data-plavement="bottom"
-                                href="/"
-                                target="_blank"
-                                title="Twitter"
-                            >
-                                <i className="fa fa-twitter" />
-                                <p className="d-lg-none">Twitter</p>
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink
-                                data-plavement="bottom"
-                                href="/"
+                                data-placement="bottom"
+                                href="https://github.com/MCirilo1"
                                 target="_blank"
                                 title="GitHub"
-                            >
+                            > GitHub
                                 <i className="fa fa-github" />
                                 <p className="d-lg-none">GitHub</p>
                             </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink
-                                data-plavement="bottom"
-                                href="/"
+                                data-placement="bottom"
+                                href="https://www.linkedin.com/in/miguelcirilodev/"
                                 target="_blank"
                                 title="LinkedIn"
-                            >
+                            > LinkedIn
                                 <i className="fa fa-linkedin" />
                                 <p className="d-lg-none">LinkedIn</p>
                             </NavLink>

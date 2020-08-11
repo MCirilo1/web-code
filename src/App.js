@@ -8,8 +8,8 @@ import { Button } from "reactstrap";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <Header />
+      <header className="App-header">
         <Profile />
         <Button
         color="success"
