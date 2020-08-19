@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <footer className="footer footer-black footer-white">
+        <footer className="bg-white footer">
             <div className="container">
                 <div className="row">
                     <nav className="footer-nav">

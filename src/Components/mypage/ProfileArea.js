@@ -15,7 +15,7 @@ function ProfileCard(props) {
                         <div className="image" style={{ width: "18rem" }}>
                             <div className="body">
                                 <div className="text-center mt-4">
-                                <img src={props.profile.avatar} className="rounded-circle" width={200} alt="avatar" />
+                                <img src={props.profile.avatar} className="rounded-circle" width={175} alt="avatar" />
                             </div>
                         </div>
                         </div>
