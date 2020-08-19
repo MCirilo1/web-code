@@ -15,9 +15,11 @@ class Profile extends React.Component {
     
     render() {
         return (
-            <ProfileCard
-                profile={this.state.user}
-            />
+            
+                <ProfileCard
+                    profile={this.state.user}
+                />
+            
         )
     }
 }
