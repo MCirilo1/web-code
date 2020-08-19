@@ -8,13 +8,22 @@ function ProfileCard(props) {
 
     return (
         <React.Fragment>
-        <div className="image" style={{ width: "18rem" }}>
-            <div className="body">
-                <div className="text-center mt-4">
-                    <img src={props.profile.avatar} className="rounded-circle" width={200} alt="avatar" />
+        <div className="container-fluid">
+            <div>
+                <div className="row">
+                    <div className="col-12 col-md-12 col-lg-4">
+                        <div className="image" style={{ width: "18rem" }}>
+                            <div className="body">
+                                <div className="text-center mt-4">
+                                <img src={props.profile.avatar} className="rounded-circle" width={200} alt="avatar" />
+                            </div>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+            
         </React.Fragment>
     )
 }

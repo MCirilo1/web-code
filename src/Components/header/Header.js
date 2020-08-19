@@ -4,7 +4,7 @@ import { Button, Collapse, NavbarBrand, Navbar, NavItem, NavLink, Nav, Container
 
 
 function Header() {
-    const [navbarColor, setNavBarColor] = React.useState('bg-primary navbar');
+    const [navbarColor, setNavBarColor] = React.useState('bg-white navbar');
     const [navbarCollapse, setNavbarCollapse] = React.useState(false);
 
     const toggleNavbarCollapse = () => {
@@ -23,7 +23,7 @@ function Header() {
                 document.documentElement.scrollTop < 300 || 
                 document.body.scrollTop < 300
             ) {
-                setNavBarColor('bg-secondary navbar');
+                setNavBarColor('bg-white navbar');
             }
         };
 
