@@ -22,6 +22,18 @@ function ProfileCard(props) {
                     </div>
                 </div>
             </div>
+
+            <div>
+                <div className="row">
+                    <div className="col-6 col-md-6 col-sm-2">
+                        <div className="body">
+                            <div className="text-center mt-4">
+                                <p>About Me</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
             
         </React.Fragment>
